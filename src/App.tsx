@@ -578,7 +578,7 @@ export default function App() {
             <span className={`w-2 h-2 rounded-full ${webViewVer >= 70 ? 'bg-green-400' : 'bg-red-400 animate-pulse'}`}></span>
             <span className={`font-bold ${webViewVer >= 70 ? 'text-green-300' : 'text-red-400'}`}>v{webViewVer}</span>
           </div>
-          {webViewVer < 70 && <p className="text-red-400/80 mt-1 mt-1 max-w-[150px]">版本过低，请升级 System WebView</p>}
+          {webViewVer < 70 && <p className="text-red-400/80 mt-1 max-w-[150px]">版本过低，请升级 System WebView</p>}
         </div>
       )}
 
